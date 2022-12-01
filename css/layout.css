@@ -20,9 +20,10 @@ header nav  {
     vertical-align: middle;
     width: 100%;
 }
-.wrapper main section {
-    width: 218px;
-	margin:0 auto;
+.wrapper main div {
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .header-text {
@@ -34,7 +35,7 @@ header nav  {
     display: inline-block;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: -32px;
+    top: 11px;
 }
 
 /* Clip text element */
@@ -43,7 +44,6 @@ header nav  {
     font-weight: bold;
     line-height: 1;
     position: relative;
-    display: inline-block;
     text-align: center;
     /* Color fallback */
     
@@ -54,7 +54,8 @@ header nav  {
     -webkit-text-fill-color: transparent;
     animation: gradient 10s linear infinite;
     background-size: 200% auto;
-    margin-top: -17px;
+    margin-top: -41px;
+    display: inline-block;
 }
 
 @keyframes gradient {
